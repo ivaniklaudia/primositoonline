@@ -54,22 +54,28 @@
 			hex: '#1a1520',
 			nota: 'Intenso, quasi silenzioso; da assaporare senza fretta.',
 			terroir: 'Cielo limpido, assenza di luce artificiale.'
+		},
+		{
+			nome: 'Nebbiolo al Tramonto',
+			hex: '#8f3d4f',
+			nota: 'Garnet tenue, tannino setoso e richiamo a ciliegia matura.',
+			terroir: 'Vigneti esposti a ovest, vendemmia tardiva.'
 		}
 	];
 </script>
 
 <svelte:head>
-	<title>Enoteca del Territorio — carta dei colori</title>
+	<title>Primosito — carta dei colori</title>
 	<meta
 		name="description"
-		content="Un’enoteca statica e leggera: al posto delle bottiglie, una selezione di colori ispirati al paesaggio locale."
+		content="Primosito: sito statico e leggero. Al posto delle bottiglie, una selezione di colori ispirati al paesaggio locale."
 	/>
 </svelte:head>
 
 <main class="page">
 	<header class="hero">
-		<p class="eyebrow">Primosito · territorio in tavola</p>
-		<h1>Enoteca del Territorio</h1>
+		<p class="eyebrow">Territorio in tavola</p>
+		<h1>Primosito</h1>
 		<p class="lead">
 			Qui non serviamo etichette: serviamo <strong>tonalità</strong> nate dalla stessa terra che
 			rende memorabili i vini di zona. Una carta veloce, pensata come degustazione visiva dei
@@ -114,18 +120,18 @@
 		<h2 id="visita-title">Vieni a trovarci</h2>
 		<p>
 			Siamo un sito statico: niente database, niente attese. Solo pagina, colore, territorio. Per
-			un’esperienza reale con bottiglie e bicchieri, passa in enoteca — stesso spirito, altro
+			un’esperienza reale con bottiglie e bicchieri, passa da Primosito — stesso spirito, altro
 			medium.
 		</p>
 		<address class="address">
 			Via del Territorio 12<br />
 			12050 · Primosito (CN)<br />
-			<a href="mailto:ciao@enotecadelterritorio.test">ciao@enotecadelterritorio.test</a>
+			<a href="mailto:ciao@primosito.test">ciao@primosito.test</a>
 		</address>
 	</section>
 
 	<footer class="foot">
-		<p>© {new Date().getFullYear()} Enoteca del Territorio — colori locali, respiro lento.</p>
+		<p>© {new Date().getFullYear()} Primosito — colori locali, respiro lento.</p>
 	</footer>
 </main>
 
